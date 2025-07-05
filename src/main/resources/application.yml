@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://alvarik0418:Amc.108285@cluster0.airo9ml.mongodb.net/bankCol?retryWrites=true&w=majority
+      uri: #rutaBDMongo#
 ledger:
   base-url: http://localhost:8081
 logging:
