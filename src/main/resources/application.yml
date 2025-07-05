@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://alvarik0418:Amc.108285@cluster0.airo9ml.mongodb.net/bankCol?retryWrites=true&w=majority
+ledger:
+  base-url: http://localhost:8081
+logging:
+  level:
+    org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE
+server:
+  port: 8081
